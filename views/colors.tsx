@@ -2,7 +2,7 @@ import  {React}  from "../config/dep.tsx"
 const { useState, useEffect } = React;
 
 const App = () => {
-    //const [colores, setColores] = useState([]);
+  //  const [colores, setColores] = useState([]);
 
 return (<html>
 <head><title>Desafio Entregable Deno</title></head>
