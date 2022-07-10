@@ -1,5 +1,4 @@
 export const colores = [
-    "rojo"
 ];
 
 export const findColor = (color: string): boolean =>{
@@ -7,4 +6,16 @@ export const findColor = (color: string): boolean =>{
         return true;
     }
     return false;
+}
+
+export const addColor = (color: string): void =>{
+    const c: any = colores.find((x: any)=> x.color === color);
+   if (c){
+        c.cantidad = c.cantidad +1;
+   }else{
+    colores.push({
+        color, 
+        cantidad: 1
+    });
+   }
 }

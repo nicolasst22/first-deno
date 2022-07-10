@@ -8,7 +8,6 @@ export const findColor = (ctx: Context) =>{
     }else{
         ctx.response.body = "no Encontro"
     }
-
 }
 
 export const getColores = (ctx: Context) =>{
